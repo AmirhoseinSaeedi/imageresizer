@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "kNKvLOXu0yVtO4jlxHeJWmtTRaX9sElhNRx2mXybUME=",
+  "Source": "ImageResizerTest",
+  "BasePath": "_content/ImageResizerTest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ImageResizerTest\\wwwroot",
+      "Source": "ImageResizerTest",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\imageresizer\\ImageResizerTest\\ImageResizerTest\\wwwroot\\",
+      "BasePath": "_content/ImageResizerTest",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\imageresizer\\ImageResizerTest\\ImageResizerTest\\wwwroot\\images\\sample.jpg",
+      "SourceId": "ImageResizerTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\imageresizer\\ImageResizerTest\\ImageResizerTest\\wwwroot\\",
+      "BasePath": "_content/ImageResizerTest",
+      "RelativePath": "images/sample.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sample.jpg"
+    }
+  ]
+}

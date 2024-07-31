@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "M/ZIFBI+Rsc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\imageresizer\\ImageResizerTest\\ImageResizerTest\\ImageResizerTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\imageflow.allplatforms\\0.10.2\\imageflow.allplatforms.0.10.2.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\imageflow.nativeruntime.osx-x86_64\\2.0.0-preview8\\imageflow.nativeruntime.osx-x86_64.2.0.0-preview8.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\imageflow.nativeruntime.ubuntu-x86_64\\2.0.0-preview8\\imageflow.nativeruntime.ubuntu-x86_64.2.0.0-preview8.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\imageflow.nativeruntime.win-x86\\2.0.0-preview8\\imageflow.nativeruntime.win-x86.2.0.0-preview8.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\imageflow.nativeruntime.win-x86_64\\2.0.0-preview8\\imageflow.nativeruntime.win-x86_64.2.0.0-preview8.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\imageflow.net\\0.10.2\\imageflow.net.0.10.2.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\imageflow.server\\0.8.3\\imageflow.server.0.8.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\imazen.common\\0.8.3\\imazen.common.0.8.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.2.0\\microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.2.0\\microsoft.extensions.logging.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.io.recyclablememorystream\\1.2.2\\microsoft.io.recyclablememorystream.1.2.2.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,291 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ImageResizerTest/1.0.0": {
+        "dependencies": {
+          "Imageflow.Server": "0.8.3"
+        },
+        "runtime": {
+          "ImageResizerTest.dll": {}
+        }
+      },
+      "Imageflow.AllPlatforms/0.10.2": {
+        "dependencies": {
+          "Imageflow.NativeRuntime.osx-x86_64": "2.0.0-preview8",
+          "Imageflow.NativeRuntime.ubuntu-x86_64": "2.0.0-preview8",
+          "Imageflow.NativeRuntime.win-x86": "2.0.0-preview8",
+          "Imageflow.NativeRuntime.win-x86_64": "2.0.0-preview8",
+          "Imageflow.Net": "0.10.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Imageflow.AllPlatforms.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.10.2.248"
+          }
+        }
+      },
+      "Imageflow.NativeRuntime.osx-x86_64/2.0.0-preview8": {
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libimageflow.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Imageflow.NativeRuntime.ubuntu-x86_64/2.0.0-preview8": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libimageflow.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Imageflow.NativeRuntime.win-x86/2.0.0-preview8": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/imageflow.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Imageflow.NativeRuntime.win-x86_64/2.0.0-preview8": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/imageflow.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Imageflow.Net/0.10.2": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.IO.RecyclableMemoryStream": "1.2.2",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Imageflow.Net.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.10.2.248"
+          }
+        }
+      },
+      "Imageflow.Server/0.8.3": {
+        "dependencies": {
+          "Imageflow.AllPlatforms": "0.10.2",
+          "Imazen.Common": "0.8.3"
+        },
+        "runtime": {
+          "lib/net6.0/Imageflow.Server.dll": {
+            "assemblyVersion": "0.8.3.0",
+            "fileVersion": "0.8.3.0"
+          }
+        }
+      },
+      "Imazen.Common/0.8.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Imazen.Common.dll": {
+            "assemblyVersion": "0.8.3.0",
+            "fileVersion": "0.8.3.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {},
+      "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.2.0": {},
+      "Microsoft.Extensions.Primitives/2.2.0": {
+        "dependencies": {
+          "System.Memory": "4.5.1",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+        }
+      },
+      "Microsoft.IO.RecyclableMemoryStream/1.2.2": {
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "assemblyVersion": "1.2.2.0",
+            "fileVersion": "1.2.2.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "System.Memory/4.5.1": {},
+      "System.Runtime.CompilerServices.Unsafe/4.5.1": {}
+    }
+  },
+  "libraries": {
+    "ImageResizerTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Imageflow.AllPlatforms/0.10.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xBE1ob69E4z4Qg3v18RJe81J9rXXWvxpUyYiOZLcZZuOnbIF35t+ToPBQIYFDNgc39NFisf1iru3NnytOGM6tg==",
+      "path": "imageflow.allplatforms/0.10.2",
+      "hashPath": "imageflow.allplatforms.0.10.2.nupkg.sha512"
+    },
+    "Imageflow.NativeRuntime.osx-x86_64/2.0.0-preview8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3wEglrMqVzlnAVBTdK6qcRySdo/4ajBP5ASRuK3yHfBqPp3ld4ke6guxuSZbgDTObIxai7KTLlsIvQZhusymUA==",
+      "path": "imageflow.nativeruntime.osx-x86_64/2.0.0-preview8",
+      "hashPath": "imageflow.nativeruntime.osx-x86_64.2.0.0-preview8.nupkg.sha512"
+    },
+    "Imageflow.NativeRuntime.ubuntu-x86_64/2.0.0-preview8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H8K5kZqcM3IliDRZD3H8BN6TbeLgcW+6FsDZ3EvlqBvu41s+Lv9vxE+c3m1cUQhsYBs76udUhgJFNR1D6x3U5g==",
+      "path": "imageflow.nativeruntime.ubuntu-x86_64/2.0.0-preview8",
+      "hashPath": "imageflow.nativeruntime.ubuntu-x86_64.2.0.0-preview8.nupkg.sha512"
+    },
+    "Imageflow.NativeRuntime.win-x86/2.0.0-preview8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WunIva5NZ2iMPKCyz8ZTkN7SRaW3szBijMg5YK7jaSFZHw8Xiky/GFfghc0XgWTuILxwO4YbY86e8QvW8CBigQ==",
+      "path": "imageflow.nativeruntime.win-x86/2.0.0-preview8",
+      "hashPath": "imageflow.nativeruntime.win-x86.2.0.0-preview8.nupkg.sha512"
+    },
+    "Imageflow.NativeRuntime.win-x86_64/2.0.0-preview8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1rY6C9Hjj7U9toa7FlnveiSBKccZlvCaHwdxPRQS0vDpAZZCJrTA/H7VYdreifpnIDInYcf0i/3oEKzEnj884w==",
+      "path": "imageflow.nativeruntime.win-x86_64/2.0.0-preview8",
+      "hashPath": "imageflow.nativeruntime.win-x86_64.2.0.0-preview8.nupkg.sha512"
+    },
+    "Imageflow.Net/0.10.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4KtF92PRHCU8Gm3wYEGJd+Uk0YBqXUY2CFe2P3N3P8UiG6vSIQRDKUV9LjgstEsis95/9OE4ItfJTpMessJIRQ==",
+      "path": "imageflow.net/0.10.2",
+      "hashPath": "imageflow.net.0.10.2.nupkg.sha512"
+    },
+    "Imageflow.Server/0.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gLoyMT37OXtjZIuVvgYAAhgyh5q4Ak/YFaCyoOiaQUa8a7qJd9LKzcEmHvJyrYNT/e0vgh3/n+WjmlJuA7Gtig==",
+      "path": "imageflow.server/0.8.3",
+      "hashPath": "imageflow.server.0.8.3.nupkg.sha512"
+    },
+    "Imazen.Common/0.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fV0lMNq/NFUfQQchwt8lE2vwwXZz/0t6Pacwpup/esZtU1idWnQE1OCnJeC0u7iIwSy1uLNWR9UPoTiSYstIdg==",
+      "path": "imazen.common/0.8.3",
+      "hashPath": "imazen.common.0.8.3.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-65MrmXCziWaQFrI0UHkQbesrX5wTwf9XPjY5yFm/VkgJKFJ5gqvXRoXjIZcf2wLi5ZlwGz/oMYfyURVCWbM5iw==",
+      "path": "microsoft.extensions.configuration.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f9hstgjVmr6rmrfGSpfsVOl2irKAgr1QjrSi3FgnS7kulxband50f2brRLwySAQTADPZeTdow0mpSMcoAdadCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EcnaSsPTqx2MGnHrmWOD0ugbuuqVT8iICqSqPzi45V5/MA1LjUNb0kwgcxBGqizV1R+WeBK7/Gw25Jzkyk9bIw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+k4AEn68HOJat5gj1TWa6X28WlirNQO9sPIIeQbia+91n03esEtMSSoekSTpMjUzjqtJWQN3McVx0GvSPFHF/Q==",
+      "path": "microsoft.extensions.hosting.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B2WqEox8o+4KUOpL7rZPyh6qYjik8tHi2tN8Z9jZkHzED8ElYgZa/h6K+xliB435SqUcWT290Fr2aa8BtZjn8A==",
+      "path": "microsoft.extensions.logging.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-azyQtqbm4fSaDzZHD/J+V6oWMFaf2tWP4WEGIYePLCMw3+b2RQdj9ybgbQyjCshcitQKQ4lEDOZjmSlTTrHxUg==",
+      "path": "microsoft.extensions.primitives/2.2.0",
+      "hashPath": "microsoft.extensions.primitives.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.IO.RecyclableMemoryStream/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LA4RBTStohA0hAAs6oKchmIC5M5Mjd5MwfB7vbbl+312N5kXj8abTGOgwZy6ASJYLCiqiiK5kHS0hDGEgfkB8g==",
+      "path": "microsoft.io.recyclablememorystream/1.2.2",
+      "hashPath": "microsoft.io.recyclablememorystream.1.2.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "System.Memory/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
+      "path": "system.memory/4.5.1",
+      "hashPath": "system.memory.4.5.1.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.1",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+    }
+  }
+}
