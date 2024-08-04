@@ -36,3 +36,6 @@ C:\Users\Lenovo\Desktop\imageresizer\ImageResizerTest\ImageResizerTest\obj\Debug
 C:\Users\Lenovo\Desktop\imageresizer\ImageResizerTest\ImageResizerTest\obj\Debug\net6.0\ImageResizerTest.pdb
 C:\Users\Lenovo\Desktop\imageresizer\ImageResizerTest\ImageResizerTest\obj\Debug\net6.0\ImageResizerTest.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\imageresizer\ImageResizerTest\ImageResizerTest\obj\Debug\net6.0\ref\ImageResizerTest.dll
+C:\Users\Lenovo\Desktop\imageresizer\ImageResizerTest\ImageResizerTest\bin\Debug\net6.0\Imageflow.Server.HybridCache.dll
+C:\Users\Lenovo\Desktop\imageresizer\ImageResizerTest\ImageResizerTest\bin\Debug\net6.0\Imazen.HybridCache.dll
+C:\Users\Lenovo\Desktop\imageresizer\ImageResizerTest\ImageResizerTest\obj\Debug\net6.0\ImageResizerTest.sourcelink.json

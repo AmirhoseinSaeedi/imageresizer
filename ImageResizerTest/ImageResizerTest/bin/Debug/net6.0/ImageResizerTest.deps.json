@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "ImageResizerTest/1.0.0": {
         "dependencies": {
-          "Imageflow.Server": "0.8.3"
+          "Imageflow.Server": "0.8.3",
+          "Imageflow.Server.HybridCache": "0.8.3"
         },
         "runtime": {
           "ImageResizerTest.dll": {}
@@ -90,12 +91,36 @@
           }
         }
       },
+      "Imageflow.Server.HybridCache/0.8.3": {
+        "dependencies": {
+          "Imazen.Common": "0.8.3",
+          "Imazen.HybridCache": "0.8.3",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/net6.0/Imageflow.Server.HybridCache.dll": {
+            "assemblyVersion": "0.8.3.0",
+            "fileVersion": "0.8.3.0"
+          }
+        }
+      },
       "Imazen.Common/0.8.3": {
         "dependencies": {
           "Microsoft.Extensions.Hosting.Abstractions": "2.2.0"
         },
         "runtime": {
           "lib/netstandard2.0/Imazen.Common.dll": {
+            "assemblyVersion": "0.8.3.0",
+            "fileVersion": "0.8.3.0"
+          }
+        }
+      },
+      "Imazen.HybridCache/0.8.3": {
+        "dependencies": {
+          "Imazen.Common": "0.8.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Imazen.HybridCache.dll": {
             "assemblyVersion": "0.8.3.0",
             "fileVersion": "0.8.3.0"
           }
@@ -203,12 +228,26 @@
       "path": "imageflow.server/0.8.3",
       "hashPath": "imageflow.server.0.8.3.nupkg.sha512"
     },
+    "Imageflow.Server.HybridCache/0.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lZQWlCcI/dyBSGta/Gunj63jT3Qj48fAeMh40T+sItCs1e/JYscbDPANydRqvUQD0GTW+gwVUuQh85YFQL3m+w==",
+      "path": "imageflow.server.hybridcache/0.8.3",
+      "hashPath": "imageflow.server.hybridcache.0.8.3.nupkg.sha512"
+    },
     "Imazen.Common/0.8.3": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-fV0lMNq/NFUfQQchwt8lE2vwwXZz/0t6Pacwpup/esZtU1idWnQE1OCnJeC0u7iIwSy1uLNWR9UPoTiSYstIdg==",
       "path": "imazen.common/0.8.3",
       "hashPath": "imazen.common.0.8.3.nupkg.sha512"
+    },
+    "Imazen.HybridCache/0.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9MJEgXZjxTxSWxjmM7UH2iMxy2+V4zhj7yt9BQ5nc+aJ/Fwokrrgt+/+kk9SCGXk+gvGQUwV9MDty/Y5nc6mJQ==",
+      "path": "imazen.hybridcache/0.8.3",
+      "hashPath": "imazen.hybridcache.0.8.3.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",

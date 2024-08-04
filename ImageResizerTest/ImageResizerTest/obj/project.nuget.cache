@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M/ZIFBI+Rsc=",
+  "dgSpecHash": "ZUv49spX7KA=",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\imageresizer\\ImageResizerTest\\ImageResizerTest\\ImageResizerTest.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,9 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\imageflow.nativeruntime.win-x86_64\\2.0.0-preview8\\imageflow.nativeruntime.win-x86_64.2.0.0-preview8.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\imageflow.net\\0.10.2\\imageflow.net.0.10.2.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\imageflow.server\\0.8.3\\imageflow.server.0.8.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\imageflow.server.hybridcache\\0.8.3\\imageflow.server.hybridcache.0.8.3.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\imazen.common\\0.8.3\\imazen.common.0.8.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\imazen.hybridcache\\0.8.3\\imazen.hybridcache.0.8.3.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.2.0\\microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",

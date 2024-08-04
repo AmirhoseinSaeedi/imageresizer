@@ -53,6 +53,10 @@
             "Imageflow.Server": {
               "target": "Package",
               "version": "[0.8.3, )"
+            },
+            "Imageflow.Server.HybridCache": {
+              "target": "Package",
+              "version": "[0.8.3, )"
             }
           },
           "imports": [

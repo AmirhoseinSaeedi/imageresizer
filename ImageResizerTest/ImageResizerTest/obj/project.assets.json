@@ -108,6 +108,20 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Imageflow.Server.HybridCache/0.8.3": {
+        "type": "package",
+        "dependencies": {
+          "Imazen.Common": "0.8.3",
+          "Imazen.HybridCache": "0.8.3",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.2.0"
+        },
+        "compile": {
+          "lib/net6.0/Imageflow.Server.HybridCache.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Imageflow.Server.HybridCache.dll": {}
+        }
+      },
       "Imazen.Common/0.8.3": {
         "type": "package",
         "dependencies": {
@@ -118,6 +132,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Imazen.Common.dll": {}
+        }
+      },
+      "Imazen.HybridCache/0.8.3": {
+        "type": "package",
+        "dependencies": {
+          "Imazen.Common": "0.8.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Imazen.HybridCache.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Imazen.HybridCache.dll": {}
         }
       },
       "Microsoft.CSharp/4.7.0": {
@@ -369,6 +395,19 @@
         "lib/net6.0/Imageflow.Server.dll"
       ]
     },
+    "Imageflow.Server.HybridCache/0.8.3": {
+      "sha512": "lZQWlCcI/dyBSGta/Gunj63jT3Qj48fAeMh40T+sItCs1e/JYscbDPANydRqvUQD0GTW+gwVUuQh85YFQL3m+w==",
+      "type": "package",
+      "path": "imageflow.server.hybridcache/0.8.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "imageflow.server.hybridcache.0.8.3.nupkg.sha512",
+        "imageflow.server.hybridcache.nuspec",
+        "lib/net6.0/Imageflow.Server.HybridCache.dll"
+      ]
+    },
     "Imazen.Common/0.8.3": {
       "sha512": "fV0lMNq/NFUfQQchwt8lE2vwwXZz/0t6Pacwpup/esZtU1idWnQE1OCnJeC0u7iIwSy1uLNWR9UPoTiSYstIdg==",
       "type": "package",
@@ -381,6 +420,20 @@
         "imazen.common.nuspec",
         "lib/net472/Imazen.Common.dll",
         "lib/netstandard2.0/Imazen.Common.dll"
+      ]
+    },
+    "Imazen.HybridCache/0.8.3": {
+      "sha512": "9MJEgXZjxTxSWxjmM7UH2iMxy2+V4zhj7yt9BQ5nc+aJ/Fwokrrgt+/+kk9SCGXk+gvGQUwV9MDty/Y5nc6mJQ==",
+      "type": "package",
+      "path": "imazen.hybridcache/0.8.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "imazen.hybridcache.0.8.3.nupkg.sha512",
+        "imazen.hybridcache.nuspec",
+        "lib/net472/Imazen.HybridCache.dll",
+        "lib/netstandard2.0/Imazen.HybridCache.dll"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -631,7 +684,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Imageflow.Server >= 0.8.3"
+      "Imageflow.Server >= 0.8.3",
+      "Imageflow.Server.HybridCache >= 0.8.3"
     ]
   },
   "packageFolders": {
@@ -685,6 +739,10 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Imageflow.Server": {
+            "target": "Package",
+            "version": "[0.8.3, )"
+          },
+          "Imageflow.Server.HybridCache": {
             "target": "Package",
             "version": "[0.8.3, )"
           }
